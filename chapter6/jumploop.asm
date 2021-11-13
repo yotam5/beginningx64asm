@@ -27,7 +27,6 @@ jloop:
 	mov rdx,rax
 	mov rax,0
 	call printf
-
 	mov rsp,rbp
 	pop rbp
 	ret

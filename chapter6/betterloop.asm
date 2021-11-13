@@ -13,6 +13,7 @@ section .text
 main:
 	push rbp
 	mov rbp,rsp
+	
 	mov rcx,[number]
 	mov rax,0
 bloop:
